@@ -524,7 +524,7 @@ function sendTextMessage(recipientId, messageText) {
       id: recipientId
     },
     message: {
-      text: messageText,
+      text: messageText + " --> REPLY ",
       metadata: "DEVELOPER_DEFINED_METADATA"
     }
   };
